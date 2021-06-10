@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace C_Sharp.Practical.Excercise_1
+namespace T2009M.Practical
 {
-    class Program
+    public class Program
     {
+        public static void Main(string[] args)
+        {
+            MobilePhone mb = new MobilePhone("Iphone 12", "Mobile", 500000);
+            mb.Display();
+        }
+        
     }
 }
