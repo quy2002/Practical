@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C_Sharp.Practical.Excercise_1
+namespace T2009M.Practical
 {
-    class MobilePhone
+    public class MobilePhone : Phone
     {
+        public MobilePhone()
+        {
+        }
+        
+        public MobilePhone(string phoneName, string phoneType, float phonePrice) : base(phoneName, phoneType, phonePrice)
+        {
+            this.phoneType = "Mobile";
+        }
+
+        public void Display()
+        {
+            base.Display();
+        }
+        
+        
     }
 }
